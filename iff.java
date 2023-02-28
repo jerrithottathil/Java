@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class if {
+public class iff {
     public static void main(string a[]){
        
         Scanner sc=new Scanner(System.in);
