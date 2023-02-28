@@ -7,7 +7,8 @@ public class scan {
         System.out.println("enter two numbers");
         int a=s.nextInt();
         int b=s.nextInt();
-        System.out.println(a+" "+b);
+        int c=a+b;
+        System.out.println("result"+c);
     }
     
 }
