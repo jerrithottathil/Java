@@ -1,17 +1,17 @@
 import java.util.Scanner;
 public class iff {
-    public static void main(string a[]){
+    public static void main(String a[]){
        
         Scanner sc=new Scanner(System.in);
         System.out.println("enter a number:");
-        int a= sc.nextInt();
+        int c=sc.nextInt();
 
-        if(a<0){
-            System.out.println("The number is negative");
+        int sum=0;
+        for(int i=0;i<c;i++){
+            sum=sum+i;
         }
-        else{
-            System.out.println("the number is positive");
-        }
+        System.out.println("the numbers are "+sum);
+        
     }
     
 }
